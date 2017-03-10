@@ -1,0 +1,39 @@
+﻿{
+    "version": "1.0.0-*",
+    "description": "An extension to Cake Build.",
+    "authors": [
+        "pitermarx"
+    ],
+
+    "packOptions": {
+        "projectUrl": "https://github.com/pitermarx/Cake.DoInDirectory",
+        "tags": [
+            "cake",
+            "build",
+            "directory"
+        ],
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/pitermarx/Cake.DoInDirectory"
+        },
+        "requireLicenseAcceptance": false
+    },
+
+    "buildOptions": {
+        "xmlDoc": true
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.0",
+        "Cake.Core": "0.18.0"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        },
+        "net45": {}
+    }
+
+
+}
